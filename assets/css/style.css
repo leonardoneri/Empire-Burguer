@@ -151,7 +151,7 @@ border: solid 1px rgba(73, 46, 21, 0.15);
 }
 
 .promotion > h2{
-  font-family: var(--font-liinfo-textlita);
+  font-family: var(--font-lilita);
   font-size: 25px;
   font-weight: 400;
   color: var(--color-primary);
@@ -163,6 +163,50 @@ border: solid 1px rgba(73, 46, 21, 0.15);
   font-weight: 400;
   color: rgba(29, 6, 5, 0.69);
   margin-bottom: 16px;
+}
+.promotion-img{
+  position: relative;;
+}
+
+#today{
+  color: var(--color-white);
+}
+
+.promotion-date{
+  position: absolute;
+  right: 20px;
+  bottom: 18px;
+
+  font-family: var(--font-lato);
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.promotion-date > span{
+  font-family: var(--font-lilita);
+  font-size: 1.25rem;
+  color: var(--color-white);
+}
+
+.promotion-img .promotion-title{
+  position: absolute;
+  top: 14px;
+  left: 18px;
+
+  font-family: var(--font-lilita);
+  font-size: 18px;
+  color: var(--color-primary);
+}
+
+.promotion-img .promotion-title > span{
+  font-family: var(--font-lato);
+  font-size: 16px;
+}
+
+
+.promotion div > img{
+  width: 100%;
+
 }
 
 .opening-hours{
@@ -223,4 +267,42 @@ border: solid 1px rgba(73, 46, 21, 0.15);
   color: var(--color-red);
   margin: 0 auto;
   text-align: center;
+}
+
+.menu{
+  background-image: url(../img/banner-menu-mobile.png);
+  padding: 39px 24px;
+}
+
+.menu > h2{
+  font-family: var(--font-lilita);
+  font-size: 25px;
+  color: var(--color-primary);
+}
+
+.menu > h2 > span{
+  background-color: #f59a1b;
+  border-radius: 5px;
+  padding: 2px
+}
+
+.menu > p{
+  font-size: 14px;
+  font-family: var(--font-lato);
+  color: rgba(29, 6, 5, 0.69);
+  margin-top: 7px;
+}
+
+.btn-menu{
+  margin-top: 15px;
+  padding: 11px 20px;
+  background-color: var(--color-red);
+  border: none;
+  border-radius: 5px;
+
+  font-family: var(--font-lato);
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--color-white);
+
 }
