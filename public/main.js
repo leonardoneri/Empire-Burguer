@@ -1,4 +1,4 @@
-import { date } from '../assets/service/date.js';  
+import { date } from '../js/service/date.js';  
 
 const checkOperation = async () => {
     const { dayOfWeek, hours } = date();
