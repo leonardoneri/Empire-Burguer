@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
     <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
     <script src="./main.js" defer type="module"></script>
     <script src="../assets/js/cardapio.js" defer type="module"></script>
@@ -80,10 +82,12 @@
         <p>Aproveite todas as nossas ofertas, fiquei de olho
             porque sempre estamos mudando o nosso cardapio.</p>
         <div class="promotion-img">
-            <img src="../assets/img/ofertas/oferta-1.png" alt="Oferta Burger Prime + Batata de 250kg, De R$49,50 Por R$35,99">
+            <img src="../assets/img/ofertas/oferta-1.png"
+                alt="Oferta Burger Prime + Batata de 250kg, De R$49,50 Por R$35,99">
             <p class="promotion-title" id="today">BURGER PRIME+BATATA<br><span>250kg</span></p>
             <p class="promotion-date">Apenas<br>
-            <span>HOJE</span></p>
+                <span>HOJE</span>
+            </p>
         </div>
         <div class="promotion-img">
             <img src="../assets/img/ofertas/oferta-2.png" alt="Oferta Batata Frita de 150kg, De R$15,50 Por R$11,99">
@@ -98,7 +102,7 @@
                 <img src="../assets/img/icons/timer.svg" alt="Imagem de um relogio">
             </div>
             <div class="line-y"></div>
-            <div class="info-hours" >
+            <div class="info-hours">
                 <h2>HORÁRIO DE FUNCIONAMENTO</h2>
                 <p>
                     Segunda a Sexta: 17h00 - 23h00<br>
@@ -111,7 +115,7 @@
             <h2>#EMPIREBURGER</h2>
         </div>
     </section>
-    <section>
+    <section class="container-menu">
         <div class="menu">
             <h2>ESCOLHA O SEU COMBO IMPERIAL,<span>PEÇA AGORA!</span></h2>
             <p>Temos Vários tipos de pratos para a nossa realeza, fique esperto porque temos sempre promoção!</p>
@@ -123,6 +127,66 @@
             </ul>
         </div>
     </section>
+    <section class="personalizedService">
+        <div>
+            <img src="../assets/img/card-woman-eating.png" alt="Mulher comendo nosso hamburguer">
+        </div>
+        <div class="service-details">
+            <h2>ATENDIMENTO <span>PERSONALIZADO</span></h2>
+            <p>Todos os nossos clientes são tratados como rei e rainha, com a nossa colunaria artesanal</p>
+            <button class="btn-menu">Cardápio Imperial</button>
+        </div>
+        <div class="width-line-x"></div>
+    </section>
+    <section class="customer-feedback-carrousel">
+        <h2>NOSSA REALEZA</h2>
+        <p>A satisfação de nossos clientes em primeiro lugar!</p>
+        <div class="carousel">
+            <div class="carousel-item">
+                <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin.”</p>
+                <div>
+                    <div> 
+                        <img src="https://api.brchallenges.com/avatars/person-8.jpg" alt="">
+                    </div>
+                    <div>
+                        <h3></h3>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <p></p>
+                <div>
+                    <div><img src="" alt=""></div>
+                    <div>
+                        <h3></h3>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <p></p>
+                <div>
+                    <div>
+                        <img src="" alt="">
+                    </div>
+                    <div>
+                        <h3></h3>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <p></p>
+                <div>
+                    <div>
+                        <img src="" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </body>
 
 </html>
